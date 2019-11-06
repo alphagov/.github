@@ -6,7 +6,7 @@ This is the security notice for all Government Digital Service (GDS) `alphagov` 
 
 ## Reporting a Vulnerability
 
-GDS are advocates of responsible vulnerability disclosure. If you’ve found a vulnerability, great! We would like to know so we can fix it.
+GDS is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, great! We would like to know so we can fix it.
 
 - If you believe a vulnerability affects the data (release of sensitive data or personal identifiable information) of a system: 
   - Send details to [disclosure@digital.cabinet-office.gov.uk], include:
