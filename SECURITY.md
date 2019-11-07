@@ -15,7 +15,6 @@ If you believe a vulnerability affects the data (release of sensitive data or pe
 
 For all other vulnerabilities, you can leave an issue against the repository (if you are not sure about which repository to raise an issue against, you can still email details through to [disclosure@digital.cabinet-office.gov.uk]):
 - prefix the issue title with `[Vulnerability]`
-- label the issue `vulnerability`
 - add details to the issue about the impact and any related [OWASP category]
 - don’t include detailed exploitation steps publically, GDS may respond in the issue's comments or contact you via your GitHub profile (alternatively, you can leave other contact means)
 
