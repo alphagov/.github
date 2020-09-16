@@ -38,5 +38,5 @@ GDS have a contributors code of conduct, which you can find here: [CODE_OF_CONDU
 - <https://github.com/Trewaters/security-README>
 
 [disclosure@digital.cabinet-office.gov.uk]: mailto:disclosure@digital.cabinet-office.gov.uk
-[CODE_OF_CONDUCT.md]: ./CODE_OF_CONDUCT.md
+[CODE_OF_CONDUCT.md]: https://github.com/alphagov/.github/blob/master/CODE_OF_CONDUCT.md
 [OWASP category]: https://www.owasp.org/index.php/Category:OWASP_Top_Ten_2017_Project
