@@ -1,0 +1,12 @@
+{
+    "name": "Digital Marketplace Python CI Workflow",
+    "description": "Digital Marketplace Python CI workflow template.",
+    "iconName": "python-powered-h",
+    "categories": [
+        "Python"
+    ],
+    "filePatterns": [
+        "Makefile",
+        "requirements.txt"
+    ]
+}
