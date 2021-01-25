@@ -19,6 +19,7 @@ jobs:
       with:
         path: venv
         key: venv-${{ runner.os }}-${{ matrix.python-version }}-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: venv-${{ runner.os }}-${{ matrix.python-version }}-
 
     - name: Install python dependencies
       run: make requirements-dev
