@@ -25,10 +25,13 @@ jobs:
         path: venv
         key: venv-${{ runner.os }}-${{ steps.ubuntu-version.outputs.UBUNTU_VERSION }}-${{ matrix.python-version }}-${{ hashFiles('**/requirements*.txt') }}
         restore-keys: venv-${{ runner.os }}-${{ steps.ubuntu-version.outputs.UBUNTU_VERSION }}-${{ matrix.python-version }}-
+    
+    - name: Install developer tools
+      run: make bootstrap
 
     - name: Install python dependencies
-      run: make requirements-dev
+      run: invoke requirements-dev
       if: steps.python-cache.outputs.cache-hit != 'true'
 
     - name: Run python tests
-      run: make test
+      run: invoke test
