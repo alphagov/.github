@@ -8,7 +8,7 @@ This is the security notice for all GDS (Government Digital Service) repositorie
 
 GDS is an advocate of responsible vulnerability disclosure. If you’ve found a vulnerability, we would like to know so we can fix it. This notice provides details for how you can let us know about vulnerabilities, or alternatively you can view our [security.txt](https://vdp.cabinetoffice.gov.uk/.well-known/security.txt) file which contains quick links to contact us.
 
-You can report a vulnerability to GDS through our vulnerability disclosure programme at [HackerOne](https://hackerone.com/44c348eb-e030-4273-b445-d4a2f6f83ba8/embedded_submissions/new). Alternatively, you can send an email to [disclosure@digital.cabinet-office.gov.uk]; if you do this you may get a response from ZenDesk, which is our ticketing system. 
+You can report a vulnerability to GDS through our vulnerability disclosure programme at [HackerOne](https://hackerone.com/44c348eb-e030-4273-b445-d4a2f6f83ba8/embedded_submissions/new). Alternatively, you can send an email to [report@digital.cabinet-office.gov.uk]; if you do this you may get a response from ZenDesk, which is our ticketing system. 
 
 When reporting a vulnerability to us, please include:
 - the website, page or repository where the vulnerability can be observed
@@ -25,7 +25,7 @@ If you are not sure if the vulnerability is genuine and exploitable, or you have
 - something you think could be improved - for example, missing security headers
 - TLS configuration weaknesses - for example weak cipher suite support or the presence of TLS1.0 support
 
-Then you can still [reach out via email](disclosure@digital.cabinet-office.gov.uk) or using the [GOV.UK contact form](https://www.gov.uk/contact/govuk).
+Then you can still [reach out via email](mailto:report@digital.cabinet-office.gov.uk) or using the [GOV.UK contact form](https://www.gov.uk/contact/govuk).
 
 ## Guidelines for reporting a vulnerability
 When you are investigating and reporting the vulnerability on a GDS domain or subdomain, you must not:
